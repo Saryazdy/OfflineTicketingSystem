@@ -1,7 +1,3 @@
-Absolutely! 🌟
-Here’s a professional **README.md** in **English** for your Offline Ticketing System project, formatted and ready to copy-paste. It covers architecture, setup, endpoints, JWT, and testing.
-
----
 
 ```markdown
 # Offline Ticketing System
