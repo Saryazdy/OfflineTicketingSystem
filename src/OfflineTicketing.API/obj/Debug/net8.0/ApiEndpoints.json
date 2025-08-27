@@ -1,0 +1,117 @@
+[
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "OfflineTicketing.Application.Users.Login.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "Create",
+    "RelativePath": "tickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "OfflineTicketing.Application.Tickets.Commands.CreateTicket.CreateTicketCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "GetAll",
+    "RelativePath": "tickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "GetById",
+    "RelativePath": "tickets/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "Update",
+    "RelativePath": "tickets/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "OfflineTicketing.Application.Tickets.Commands.UpdateTicket.UpdateTicketCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "Delete",
+    "RelativePath": "tickets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "GetMyTickets",
+    "RelativePath": "tickets/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OfflineTicketing.API.Controllers.TicketsController",
+    "Method": "GetStats",
+    "RelativePath": "tickets/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
