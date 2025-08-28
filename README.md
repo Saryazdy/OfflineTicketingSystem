@@ -91,8 +91,4 @@ To manually trigger seeding:
 * The API is designed with CQRS pattern separating commands and queries.
 ```
 
----
-
-## License
-
 MIT License
