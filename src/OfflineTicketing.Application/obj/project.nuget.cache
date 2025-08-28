@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S9QRGDTB/94=",
+  "dgSpecHash": "S2UknqK+Bhg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj",
+  "projectFilePath": "C:\\Users\\sadeg\\Source\\Repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sadeg\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sadeg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

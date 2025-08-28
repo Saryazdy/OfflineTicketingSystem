@@ -1066,11 +1066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj",
+      "projectUniqueName": "C:\\Users\\sadeg\\Source\\Repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj",
       "projectName": "OfflineTicketing.Application",
-      "projectPath": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj",
+      "projectPath": "C:\\Users\\sadeg\\Source\\Repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj",
       "packagesPath": "C:\\Users\\sadeg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\obj\\",
+      "outputPath": "C:\\Users\\sadeg\\Source\\Repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -1094,8 +1094,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj": {
-              "projectPath": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj"
+            "C:\\Users\\sadeg\\Source\\Repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj": {
+              "projectPath": "C:\\Users\\sadeg\\Source\\Repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj"
             }
           }
         }
