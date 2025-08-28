@@ -89,6 +89,4 @@ To manually trigger seeding:
 * Result<T> pattern is used in MediatR pipeline for consistent API responses.
 * Pagination is applied to all queries returning lists of tickets.
 * The API is designed with CQRS pattern separating commands and queries.
-```
 
-MIT License
