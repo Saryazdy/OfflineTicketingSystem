@@ -89,17 +89,3 @@ Swagger UI available at: `https://localhost:5001/swagger/index.html`
 
 ---
 
-## Testing
-
-* Use Postman or Swagger.
-* Run unit tests:
-
-```bash
-dotnet test tests/OfflineTicketing.Application.Tests
-```
-
----
-
-## License
-
-MIT License
