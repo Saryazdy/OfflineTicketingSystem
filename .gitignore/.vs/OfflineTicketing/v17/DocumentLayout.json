@@ -1,0 +1,941 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\identity\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\identity\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\dependencyinjection\\addinfrastructureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\dependencyinjection\\addinfrastructureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|solutionrelative:src\\offlineticketing.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|solutionrelative:src\\offlineticketing.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|solutionrelative:src\\offlineticketing.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|solutionrelative:src\\offlineticketing.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.infrastructure\\offlineticketing.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4865DFCD-A740-B4EB-97F7-45325ED537CB}|src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj|solutionrelative:src\\offlineticketing.infrastructure\\offlineticketing.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D39E39-F1E7-3761-1CFE-E56E5D7F1BBC}|src\\OfflineTicketing.Domain\\OfflineTicketing.Domain.csproj|solutionrelative:src\\offlineticketing.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\users\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\users\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\users\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\users\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\users\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\users\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\users\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getticketstats\\getticketstatsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getticketstats\\getticketstatsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getticketstats\\getticketstatsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getticketstats\\getticketstatsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getticketbyid\\getticketbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getticketbyid\\getticketbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getticketbyid\\getticketbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getticketbyid\\getticketbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getmytickets\\getmyticketsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getmytickets\\getmyticketsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getmytickets\\getmyticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getmytickets\\getmyticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getalltickets\\getallticketsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getalltickets\\getallticketsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\queries\\getalltickets\\getallticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\queries\\getalltickets\\getallticketsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\dtos\\ticketstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\dtos\\ticketstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\updateticket\\updateticketcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\updateticket\\updateticketcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\updateticket\\updateticketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\updateticket\\updateticketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\updateticket\\updateticketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\updateticket\\updateticketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\deleteticket\\deleteticketcommandvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\deleteticket\\deleteticketcommandvalidator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\deleteticket\\deleteticketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\deleteticket\\deleteticketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\deleteticket\\deleteticketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\deleteticket\\deleteticketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\createticket\\createticketcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\createticket\\createticketcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\createticket\\createticketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\createticket\\createticketcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\tickets\\commands\\createticket\\createticketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\tickets\\commands\\createticket\\createticketcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\models\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\models\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\models\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\models\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\mapping\\ticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\mapping\\ticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\extensions\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\extensions\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\dependencyinjection\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\dependencyinjection\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\behaviours\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\behaviours\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\behaviours\\resultbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\behaviours\\resultbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.application\\common\\behaviours\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA40C339-7E5A-4499-6DD4-0233A70C7EB0}|src\\OfflineTicketing.Application\\OfflineTicketing.Application.csproj|solutionrelative:src\\offlineticketing.application\\common\\behaviours\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|solutionrelative:src\\offlineticketing.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|solutionrelative:src\\offlineticketing.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|solutionrelative:src\\offlineticketing.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|solutionrelative:src\\offlineticketing.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|c:\\users\\sadeg\\source\\repos\\offlineticketingsystem\\src\\offlineticketing.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F228E1-2E9D-15A2-2D26-47EEA6973DDF}|src\\OfflineTicketing.API\\OfflineTicketing.API.csproj|solutionrelative:src\\offlineticketing.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:59.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:40.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:29.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:28.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Identity\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\Identity\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\Identity\\JwtTokenService.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\Identity\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:19.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddInfrastructureServices.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\DependencyInjection\\AddInfrastructureServices.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\DependencyInjection\\AddInfrastructureServices.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\DependencyInjection\\AddInfrastructureServices.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\DependencyInjection\\AddInfrastructureServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:15.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Enums\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Domain\\Enums\\TicketStatus.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Enums\\TicketStatus.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Domain\\Enums\\TicketStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:10.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketPriority.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Enums\\TicketPriority.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Domain\\Enums\\TicketPriority.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Enums\\TicketPriority.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Domain\\Enums\\TicketPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:08.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Domain\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:08.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:05.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OfflineTicketing.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj",
+              "RelativeToolTip": "src\\OfflineTicketing.Infrastructure\\OfflineTicketing.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T23:34:02.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Domain\\Entities\\Ticket.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Domain\\Entities\\Ticket.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Domain\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:34:01.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:44.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Users\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:42.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Users\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Users\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:41.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Dtos\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Users\\Dtos\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Users\\Dtos\\LoginResponseDto.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Users\\Dtos\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:37.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetTicketStatsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQueryHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:34.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetTicketStatsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQuery.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQuery.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQuery.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketStats\\GetTicketStatsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:31.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetTicketByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQueryHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:26.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetTicketByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQuery.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQuery.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQuery.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetTicketById\\GetTicketByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:25.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetMyTicketsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQueryHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:21.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetMyTicketsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQuery.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQuery.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQuery.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetMyTickets\\GetMyTicketsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:20.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllTicketsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQueryHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:15.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetAllTicketsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQuery.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQuery.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQuery.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Queries\\GetAllTickets\\GetAllTicketsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TicketStatsDto.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketStatsDto.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketStatsDto.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketStatsDto.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:09.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketDto.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketDto.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketDto.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Dtos\\TicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:08.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateTicketCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandValidator.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:04.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateTicketCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:03.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateTicketCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommand.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommand.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommand.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\UpdateTicket\\UpdateTicketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:02.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteTicketCommandValidator .cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandValidator .cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandValidator .cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandValidator .cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandValidator .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:33:00.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeleteTicketCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:59.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DeleteTicketCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommand.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommand.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommand.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\DeleteTicket\\DeleteTicketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:58.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateTicketCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandValidator.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandValidator.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:55.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateTicketCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandHandler.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandHandler.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:48.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateTicketCommand.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommand.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommand.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommand.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Tickets\\Commands\\CreateTicket\\CreateTicketCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:45.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Models\\Result.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\Result.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Models\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:40.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PaginationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\PaginationRequest.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Models\\PaginationRequest.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\PaginationRequest.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Models\\PaginationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:38.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Models\\PaginatedResult.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\PaginatedResult.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Models\\PaginatedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:37.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Models\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Models\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:34.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TicketProfile.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Mapping\\TicketProfile.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Mapping\\TicketProfile.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Mapping\\TicketProfile.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Mapping\\TicketProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:31.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:26.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Interfaces\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Interfaces\\IJwtTokenService.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Interfaces\\IJwtTokenService.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Interfaces\\IJwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:25.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IQueryableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Extensions\\IQueryableExtensions.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Extensions\\IQueryableExtensions.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Extensions\\IQueryableExtensions.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Extensions\\IQueryableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:22.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\DependencyInjection\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\DependencyInjection\\ConfigureServices.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\DependencyInjection\\ConfigureServices.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\DependencyInjection\\ConfigureServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:19.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Behaviours\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Behaviours\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Behaviours\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Behaviours\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:17.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ResultBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Behaviours\\ResultBehaviour.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Behaviours\\ResultBehaviour.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Behaviours\\ResultBehaviour.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Behaviours\\ResultBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:15.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Behaviours\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.Application\\Common\\Behaviours\\LoggingBehavior.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.Application\\Common\\Behaviours\\LoggingBehavior.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.Application\\Common\\Behaviours\\LoggingBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:32:13.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\OfflineTicketing.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T23:31:57.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\appsettings.Development.json",
+              "RelativeToolTip": "src\\OfflineTicketing.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T23:31:55.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\appsettings.json",
+              "RelativeToolTip": "src\\OfflineTicketing.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T23:31:52.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.API\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.API\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:31:35.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\OfflineTicketing.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sadeg\\source\\repos\\OfflineTicketingSystem\\src\\OfflineTicketing.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\OfflineTicketing.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:31:31.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
