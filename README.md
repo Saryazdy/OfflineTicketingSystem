@@ -28,9 +28,6 @@ OfflineTicketingSystem/
 │  ├─ OfflineTicketing.Application/  # Commands, Queries, DTOs, Behaviors
 │  ├─ OfflineTicketing.Domain/       # Entities, Enums
 │  ├─ OfflineTicketing.Infrastructure/ # Repositories, DbContext
-├─ tests/
-│  ├─ OfflineTicketing.Application.Tests/
-│  └─ OfflineTicketing.API.Tests/
 ├─ README.md
 ```
 
@@ -92,16 +89,6 @@ To manually trigger seeding:
 * Result<T> pattern is used in MediatR pipeline for consistent API responses.
 * Pagination is applied to all queries returning lists of tickets.
 * The API is designed with CQRS pattern separating commands and queries.
-
----
-
-## Testing
-
-* Use Postman or Swagger to test endpoints.
-* Run unit tests:
-
-```bash
-dotnet test tests/OfflineTicketing.Application.Tests
 ```
 
 ---
