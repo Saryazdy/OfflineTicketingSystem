@@ -28,64 +28,84 @@ OfflineTicketingSystem/
 │  ├─ OfflineTicketing.Application/  # Commands, Queries, DTOs, Behaviors
 │  ├─ OfflineTicketing.Domain/       # Entities, Enums
 │  ├─ OfflineTicketing.Infrastructure/ # Repositories, DbContext
+├─ tests/
+│  ├─ OfflineTicketing.Application.Tests/
+│  └─ OfflineTicketing.API.Tests/
 ├─ README.md
 ```
 
 ---
 
-## Build & Database Setup
+## How to Run the Project
 
 1. Open the solution in Visual Studio or via terminal.
-2. Navigate to `src/OfflineTicketing.Infrastructure`.
-3. Install EF Core CLI if needed:
+2. Restore NuGet packages:
 
    ```bash
-   dotnet tool install --global dotnet-ef
+   dotnet restore
    ```
-4. Add migration and update the database:
+3. Build the project:
 
    ```bash
-   dotnet ef migrations add InitialCreate --project OfflineTicketing.Infrastructure
-   dotnet ef database update --project OfflineTicketing.Infrastructure
+   dotnet build
    ```
+4. Run the API:
 
-> For SQLite, the database file will be created automatically.
+   ```bash
+   dotnet run --project src/OfflineTicketing.API
+   ```
+5. Access Swagger UI at: [https://localhost:7099/swagger/index.html](https://localhost:7099/swagger/index.html)
 
 ---
 
-## Run the API
+## How to Seed the Database with Initial Data
+
+The project automatically seeds the database with initial users and tickets using `DbSeeder`.
+
+Seeded Users:
+
+| Name          | Email                                               | Password     | Role     |
+| ------------- | --------------------------------------------------- | ------------ | -------- |
+| Admin User    | [admin@example.com](mailto:admin@example.com)       | Admin123!    | Admin    |
+| Employee User | [employee@example.com](mailto:employee@example.com) | Employee123! | Employee |
+
+Seeded Tickets:
+
+* Sample tickets are created for the employees upon database initialization.
+
+To manually trigger seeding:
+
+1. Ensure database is created and migrated:
+
+   ```bash
+   dotnet ef database update --project src/OfflineTicketing.Infrastructure
+   ```
+2. Run the application; seeding happens on startup if users do not exist.
+
+---
+
+## Assumptions and Decisions
+
+* SQLite is used for simplicity and local development.
+* JWT Authentication is implemented for securing API endpoints.
+* Role-based authorization distinguishes between Admin and Employee actions.
+* Result<T> pattern is used in MediatR pipeline for consistent API responses.
+* Pagination is applied to all queries returning lists of tickets.
+* The API is designed with CQRS pattern separating commands and queries.
+
+---
+
+## Testing
+
+* Use Postman or Swagger to test endpoints.
+* Run unit tests:
 
 ```bash
-dotnet run --project src/OfflineTicketing.API
+dotnet test tests/OfflineTicketing.Application.Tests
 ```
 
-Swagger UI available at: `https://localhost:5001/swagger/index.html`
-
 ---
 
-## Seeded Users
+## License
 
-| Name          | Email                                                 | Password     | Role     |
-| ------------- | ----------------------------------------------------- | ------------ | -------- |
-| Admin User    | [admin@example.com](mailto:admin@example.com)         | Admin123!    | Admin    |
-| Employee User | [employee@example.com](mailto:employee@example.com)   | Employee123! | Employee |
-| Employee2     | [employee2@example.com](mailto:employee2@example.com) | Employee123! | Employee |
-
-* Sample tickets are automatically created on database initialization.
-
----
-
-## API Endpoints
-
-| Method | Route         | Description                  | Roles           |
-| ------ | ------------- | ---------------------------- | --------------- |
-| POST   | /tickets      | Create a ticket              | Employee        |
-| GET    | /tickets/my   | View user's tickets          | Admin, Employee |
-| GET    | /tickets      | View all tickets (Paginated) | Admin           |
-| GET    | /tickets/{id} | View ticket by ID            | Admin, Employee |
-| PUT    | /tickets/{id} | Update ticket                | Admin           |
-| DELETE | /tickets/{id} | Delete ticket                | Admin           |
-| POST   | /auth/login   | Login and get JWT            | All             |
-
----
-
+MIT License
