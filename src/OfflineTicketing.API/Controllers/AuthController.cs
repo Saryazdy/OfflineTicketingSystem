@@ -19,6 +19,10 @@ namespace OfflineTicketing.API.Controllers
         public async Task<IActionResult> Login([FromBody] LoginCommand command)
         {
             var result = await _mediator.Send(command);
+            if (result == null || result.IsFailure)
+            {
+                return Unauthorized(result);
+            }
             return Ok(result);
         }
     }

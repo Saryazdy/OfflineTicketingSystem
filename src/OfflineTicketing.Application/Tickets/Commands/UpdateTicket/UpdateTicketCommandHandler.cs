@@ -26,32 +26,19 @@ namespace OfflineTicketing.Application.Tickets.Commands.UpdateTicket
             if (ticket == null || ticket.IsDeleted)
                 return false;
 
-            // اگر ادمین خواست کسی رو Assign کنه، بررسی وجود یوزر
             if (request.AssignedToUserId.HasValue)
             {
                 var user = await _userRepository.GetByIdAsync(request.AssignedToUserId.Value);
-                if (user == null || user.Role != Domain.Enums.Role.Admin)
-                    throw new UnauthorizedAccessException("Assigned user must be a valid Admin");
+                if (user == null )
+                    throw new UnauthorizedAccessException("user not found");
 
-                ticket.AssignedToUserId = request.AssignedToUserId.Value;
+                ticket.AssignToUser(user);
             }
-
-            ticket.Status = request.Status;
-            ticket.UpdatedAt = DateTime.UtcNow;
+            ticket.ChangeStatus(request.Status);
 
             await _ticketRepository.UpdateAsync(ticket);
 
-            // تاریخچه برای Audit
-            var history = new TicketHistory
-            {
-                Id = Guid.NewGuid(),
-                TicketId = ticket.Id,
-                ChangedAt = DateTime.UtcNow,
-                //Status = ticket.Status,
-                //AssignedToUserId = ticket.AssignedToUserId
-            };
 
-            await _ticketRepository.AddHistoryAsync(history);
 
             return true;
         }

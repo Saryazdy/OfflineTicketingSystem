@@ -20,6 +20,29 @@
           "OfflineTicketing.API.dll": {}
         }
       },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Microsoft.Extensions.Options": "9.0.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
       "BCrypt.Net-Next/4.0.3": {
         "runtime": {
           "lib/net6.0/BCrypt.Net-Next.dll": {
@@ -104,6 +127,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.Sqlite.Core/9.0.8": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.10"
@@ -209,12 +233,54 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration/9.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/9.0.8": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.8"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/9.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.8",
+          "Microsoft.Extensions.FileProviders.Physical": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/9.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.8",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Configuration.FileExtensions": "9.0.8",
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.8",
+          "System.Text.Json": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.825.36511"
           }
@@ -247,6 +313,38 @@
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
             "assemblyVersion": "9.0.0.8",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/9.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/9.0.8": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.8",
+          "Microsoft.Extensions.FileSystemGlobbing": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/9.0.8": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.825.36511"
           }
         }
@@ -618,15 +716,18 @@
       },
       "OfflineTicketing.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "BCrypt.Net-Next": "4.0.3",
           "FluentValidation": "12.0.0",
           "MediatR": "13.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.8",
           "OfflineTicketing.Domain": "1.0.0",
           "Portable.BouncyCastle": "1.9.0"
         },
         "runtime": {
           "OfflineTicketing.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -634,7 +735,7 @@
       "OfflineTicketing.Domain/1.0.0": {
         "runtime": {
           "OfflineTicketing.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -642,14 +743,18 @@
       "OfflineTicketing.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.8",
+          "Microsoft.Extensions.Configuration": "9.0.8",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Configuration.FileExtensions": "9.0.8",
+          "Microsoft.Extensions.Configuration.Json": "9.0.8",
           "OfflineTicketing.Application": "1.0.0",
           "OfflineTicketing.Domain": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.14.0"
         },
         "runtime": {
           "OfflineTicketing.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -661,6 +766,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512"
     },
     "BCrypt.Net-Next/4.0.3": {
       "type": "package",
@@ -717,6 +836,13 @@
       "sha512": "sha512-rwxaZYHips5M9vqxRkGfJthTx+Ws4O4yCuefn17J371jL3ouC5Ker43h2hXb5yd9BMnImE9rznT75KJHm6bMgg==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.0",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/9.0.8": {
       "type": "package",
@@ -788,12 +914,33 @@
       "path": "microsoft.extensions.caching.memory/9.0.8",
       "hashPath": "microsoft.extensions.caching.memory.9.0.8.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6m+8Xgmf8UWL0p/oGqBM+0KbHE5/ePXbV1hKXgC59zEv0aa0DW5oiiyxDbK5kH5j4gIvyD5uWL0+HadKBJngvQ==",
+      "path": "microsoft.extensions.configuration/9.0.8",
+      "hashPath": "microsoft.extensions.configuration.9.0.8.nupkg.sha512"
+    },
     "Microsoft.Extensions.Configuration.Abstractions/9.0.8": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-yNou2KM35RvzOh4vUFtl2l33rWPvOCoba+nzEDJ+BgD8aOL/jew4WPCibQvntRfOJ2pJU8ARygSMD+pdjvDHuA==",
       "path": "microsoft.extensions.configuration.abstractions/9.0.8",
       "hashPath": "microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jgx58Jpk3oKT7KRn8x/cFf3QDTjQP+KUbyBnynAcB2iBx1Eq9EdNMCu0QEbYuaZOaQru/Kwdffary+hn58Wwg==",
+      "path": "microsoft.extensions.configuration.fileextensions/9.0.8",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjxzcnL7ul322+kpvELisXaZl8/5MYs6JfI9DZLQWsao1nA/4FL48yPwDK986hbJTWc64JxOOaMym0SQ/dy32w==",
+      "path": "microsoft.extensions.configuration.json/9.0.8",
+      "hashPath": "microsoft.extensions.configuration.json.9.0.8.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.8": {
       "type": "package",
@@ -815,6 +962,27 @@
       "sha512": "sha512-3CW02zNjyqJ2eORo8Zkznpw6+QvK+tYUKZgKuKuAIYdy73TRFvpaqCwYws1k6/lMSJ7ZqABfWn0/wa5bRsIJ4w==",
       "path": "microsoft.extensions.dependencymodel/9.0.8",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4zZbQ4w+hCMm9J+z5NOj3giIPT2MhZxx05HX/MGuAmDBbjOuXlYIIRN+t4V6OLxy5nXZIcXO+dQMB/OWubuDkw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/9.0.8",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FlOe2i7UUIfY0l0ChaIYtlXjdWWutR4DMRKZaGD6z4G1uVTteFkbBfxUIoi1uGmrZQxXe/yv/cfwiT0tK2xyXA==",
+      "path": "microsoft.extensions.fileproviders.physical/9.0.8",
+      "hashPath": "microsoft.extensions.fileproviders.physical.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-96Ub5LmwYfIGVoXkbe4kjs+ivK6fLBTwKJAOMfUNV0R+AkZRItlgROFqXEWMUlXBTPM1/kKu26Ueu5As6RDzJA==",
+      "path": "microsoft.extensions.filesystemglobbing/9.0.8",
+      "hashPath": "microsoft.extensions.filesystemglobbing.9.0.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/9.0.8": {
       "type": "package",

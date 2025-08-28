@@ -1,38 +1,30 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using MediatR;
 using OfflineTicketing.Application.Common.Interfaces;
+using OfflineTicketing.Application.Common.Models;
 using OfflineTicketing.Application.Tickets.Dtos;
-using System;
+using OfflineTicketing.Application.Common.Extensions; // اگه اکستنشن اونجاست
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace OfflineTicketing.Application.Tickets.Queries.GetAllTickets
 {
-    public class GetAllTicketsQueryHandler : IRequestHandler<GetAllTicketsQuery, IEnumerable<TicketDto>>
+ public class GetAllTicketsQueryHandler 
+    : IRequestHandler<GetAllTicketsQuery, PaginatedList<TicketDto>>
     {
         private readonly ITicketRepository _ticketRepository;
+        private readonly IMapper _mapper;
 
-        public GetAllTicketsQueryHandler(ITicketRepository ticketRepository)
+        public GetAllTicketsQueryHandler(ITicketRepository ticketRepository, IMapper mapper)
         {
             _ticketRepository = ticketRepository;
+            _mapper = mapper;
         }
 
-        public async Task<IEnumerable<TicketDto>> Handle(GetAllTicketsQuery request, CancellationToken cancellationToken)
+        public async Task<PaginatedList<TicketDto>> Handle(GetAllTicketsQuery request, CancellationToken cancellationToken)
         {
-            var tickets = await _ticketRepository.GetAllAsync();
-
-            return tickets.Select(t => new TicketDto
-            {
-                Id = t.Id,
-                Title = t.Title,
-                Description = t.Description,
-                Status = t.Status.ToString(),
-                Priority = t.Priority.ToString(),
-                CreatedAt = t.CreatedAt,
-                UpdatedAt = t.UpdatedAt
-            });
+            return await _ticketRepository.GetPagedAsync(request.PageNumber, request.PageSize, _mapper, cancellationToken);
         }
     }
 }
-

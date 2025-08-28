@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OfflineTicketing.API.props" />
+</Project>

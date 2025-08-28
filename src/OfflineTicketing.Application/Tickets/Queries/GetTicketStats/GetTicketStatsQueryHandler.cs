@@ -1,5 +1,7 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using OfflineTicketing.Application.Common.Interfaces;
+using OfflineTicketing.Application.Common.Models;
 using OfflineTicketing.Application.Tickets.Dtos;
 using OfflineTicketing.Domain.Enums;
 using System;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace OfflineTicketing.Application.Tickets.Queries.GetTicketStats
 {
-    public class GetTicketStatsQueryHandler : IRequestHandler<GetTicketStatsQuery, TicketStatsDto>
+    public class GetTicketStatsQueryHandler : IRequestHandler<GetTicketStatsQuery, Result< TicketStatsDto>>
     {
         private readonly ITicketRepository _ticketRepository;
 
@@ -19,16 +21,22 @@ namespace OfflineTicketing.Application.Tickets.Queries.GetTicketStats
             _ticketRepository = ticketRepository;
         }
 
-        public async Task<TicketStatsDto> Handle(GetTicketStatsQuery request, CancellationToken cancellationToken)
+        public async Task<Result<TicketStatsDto>> Handle(GetTicketStatsQuery request, CancellationToken cancellationToken)
         {
-            var tickets = await _ticketRepository.GetAllAsync();
+            var query = _ticketRepository.GetAllQueryable();
 
-            return new TicketStatsDto
+            var openCount = await query.CountAsync(t => t.Status == TicketStatus.Open);
+            var inProgressCount = await query.CountAsync(t => t.Status == TicketStatus.InProgress);
+            var closedCount = await query.CountAsync(t => t.Status == TicketStatus.Closed);
+
+            var dto =  new TicketStatsDto
             {
-                Open = tickets.Count(t => t.Status == TicketStatus.Open),
-                InProgress = tickets.Count(t => t.Status == TicketStatus.InProgress),
-                Closed = tickets.Count(t => t.Status == TicketStatus.Closed)
+                Open = openCount,
+                InProgress = inProgressCount,
+                Closed = closedCount
             };
+
+          return  Result<TicketStatsDto> .Ok(dto);
         }
     }
 }

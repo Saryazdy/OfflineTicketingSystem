@@ -1,4 +1,7 @@
-﻿using OfflineTicketing.Domain.Entities;
+﻿using AutoMapper;
+using OfflineTicketing.Application.Common.Models;
+using OfflineTicketing.Application.Tickets.Dtos;
+using OfflineTicketing.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +15,19 @@ namespace OfflineTicketing.Application.Common.Interfaces
         Task<Ticket> AddAsync(Ticket ticket);
         Task<Ticket?> GetByIdAsync(Guid id);
         Task<IEnumerable<Ticket>> GetAllAsync();
-        Task<IEnumerable<Ticket>> GetByUserIdAsync(Guid userId);
+        Task<PaginatedList<TicketDto>> GetByUserIdAsync(
+        Guid userId,
+        int pageNumber,
+        int pageSize, IMapper mapper,
+        CancellationToken cancellationToken = default);
+        Task<PaginatedList<TicketDto>> GetPagedAsync(
+                                                    int pageNumber,
+                                                    int pageSize,
+                                                    IMapper mapper,
+                                                    CancellationToken cancellationToken = default);
+
         Task UpdateAsync(Ticket ticket);
         Task SoftDeleteAsync(Guid ticketId);
-
-        Task AddHistoryAsync(TicketHistory history);
+        IQueryable<Ticket> GetAllQueryable();
     }
 }

@@ -2,7 +2,7 @@
 using MediatR;
 
 
-namespace OfflineTicketing.Application.Common.PipelineBehaviors
+namespace OfflineTicketing.Application.Common.Behaviours
 {
 
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OfflineTicketing.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0234ca58e81aae30a0af5adc14c7259894c5837f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+823365932051ed92b3df268bc1e0faf59131c82b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OfflineTicketing.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OfflineTicketing.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

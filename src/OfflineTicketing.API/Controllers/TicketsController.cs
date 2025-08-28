@@ -30,24 +30,39 @@ namespace OfflineTicketing.API.Controllers
         [Authorize(Roles = "Employee")]
         public async Task<IActionResult> Create([FromBody] CreateTicketCommand command)
         {
-         //   command.CreatedByUserId = CurrentUserId;
-            var ticket = await _mediator.Send(command);
+            // ست کردن کاربر جاری
+            var commandWithUser = command with { CreatedByUserId = CurrentUserId };
+
+            var ticket = await _mediator.Send(commandWithUser);
             return Ok(ticket);
         }
 
         [HttpGet("my")]
-        [Authorize(Roles = "Employee")]
-        public async Task<IActionResult> GetMyTickets()
+        [Authorize(Roles = "Admin,Employee")]
+        public async Task<IActionResult> GetMyTickets([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
-            var tickets = await _mediator.Send(new GetMyTicketsQuery { UserId = CurrentUserId });
+            var query = new GetMyTicketsQuery
+            {
+                UserId = CurrentUserId,
+                PageNumber = pageNumber,
+                PageSize = pageSize
+            };
+
+            var tickets = await _mediator.Send(query);
             return Ok(tickets);
         }
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
-            var tickets = await _mediator.Send(new GetAllTicketsQuery());
+            var query = new GetAllTicketsQuery
+            {
+                PageNumber = pageNumber,
+                PageSize = pageSize
+            };
+
+            var tickets = await _mediator.Send(query);
             return Ok(tickets);
         }
 

@@ -3,29 +3,28 @@ using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using OfflineTicketing.Application.Common.DependencyInjection;
 using OfflineTicketing.Application.Common.Interfaces;
-using OfflineTicketing.Application.Common.PipelineBehaviors;
-using OfflineTicketing.Infrastructure.Data;
+using OfflineTicketing.Application.Common.Mapper;
+using OfflineTicketing.Application.Common.Behaviours;
+using OfflineTicketing.Infrastructure.Persistence;
 using OfflineTicketing.Infrastructure.Repositories;
 using OfflineTicketing.Infrastructure.Services;
+using System.Reflection;
 using System.Text;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddApplicationServices();
 // DbContext
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 // Repositories
 builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // MediatR + FluentValidation
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
-builder.Services.AddValidatorsFromAssemblyContaining<Program>();
-builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 // JWT Authentication
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]);
@@ -53,7 +52,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    DbInitializer.Initialize(db);
+}
 app.UseSwagger();
 app.UseSwaggerUI();
 

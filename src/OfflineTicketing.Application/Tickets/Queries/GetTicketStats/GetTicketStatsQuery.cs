@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using OfflineTicketing.Application.Common.Models;
 using OfflineTicketing.Application.Tickets.Dtos;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OfflineTicketing.Application.Tickets.Queries.GetTicketStats
 {
-    public class GetTicketStatsQuery : IRequest<TicketStatsDto>
+    public class GetTicketStatsQuery : IRequest<Result<TicketStatsDto>>
     {
     }
 }

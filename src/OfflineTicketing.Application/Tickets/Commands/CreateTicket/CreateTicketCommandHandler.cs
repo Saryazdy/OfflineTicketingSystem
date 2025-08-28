@@ -15,19 +15,21 @@ namespace OfflineTicketing.Application.Tickets.Commands.CreateTicket
             private readonly ITicketRepository _ticketRepo;
             public CreateTicketCommandHandler(ITicketRepository ticketRepo) => _ticketRepo = ticketRepo;
 
-            public async Task<Ticket> Handle(CreateTicketCommand request, CancellationToken cancellationToken)
-            {
-                var ticket = new Ticket
-                {
-                    Title = request.Title,
-                    Description = request.Description,
-                    Priority = request.Priority,
-                    CreatedByUserId = request.CreatedByUserId
-                };
+        public async Task<Ticket> Handle(CreateTicketCommand request, CancellationToken cancellationToken)
+        {
+          
 
-                return await _ticketRepo.AddAsync(ticket);
+  
+            var ticket = new Ticket(
+                title: request.Title,
+                description: request.Description,
+                createdByUserId: request. CreatedByUserId,
+                priority: request.Priority
+            );
 
-            }
+            // ذخیره در repository
+            return await _ticketRepo.AddAsync(ticket);
         }
+    }
     }
 

@@ -20,3 +20,15 @@ C:\Users\m_saryazdi\source\repos\OfflineTicketing\src\OfflineTicketing.Domain\ob
 C:\Users\m_saryazdi\source\repos\OfflineTicketing\src\OfflineTicketing.Domain\obj\Debug\net8.0\refint\OfflineTicketing.Domain.dll
 C:\Users\m_saryazdi\source\repos\OfflineTicketing\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.pdb
 C:\Users\m_saryazdi\source\repos\OfflineTicketing\src\OfflineTicketing.Domain\obj\Debug\net8.0\ref\OfflineTicketing.Domain.dll
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\bin\Debug\net8.0\OfflineTicketing.Domain.deps.json
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\bin\Debug\net8.0\OfflineTicketing.Domain.dll
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\bin\Debug\net8.0\OfflineTicketing.Domain.pdb
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.AssemblyInfoInputs.cache
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.AssemblyInfo.cs
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.sourcelink.json
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.dll
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\refint\OfflineTicketing.Domain.dll
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\OfflineTicketing.Domain.pdb
+C:\Users\sadeg\Source\Repos\OfflineTicketingSystem\src\OfflineTicketing.Domain\obj\Debug\net8.0\ref\OfflineTicketing.Domain.dll
