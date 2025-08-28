@@ -54,7 +54,7 @@ OfflineTicketingSystem/
    ```bash
    dotnet run --project src/OfflineTicketing.API
    ```
-5. Access Swagger UI at: [https://localhost:7099/swagger/index.html](https://localhost:7099/swagger/index.html)
+5. Access Swagger UI at: [https://localhost:5001/swagger/index.html](https://localhost:5001/swagger/index.html)
 
 ---
 
