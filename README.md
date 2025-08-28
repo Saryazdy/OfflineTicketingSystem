@@ -28,9 +28,6 @@ OfflineTicketingSystem/
 │  ├─ OfflineTicketing.Application/  # Commands, Queries, DTOs, Behaviors
 │  ├─ OfflineTicketing.Domain/       # Entities, Enums
 │  ├─ OfflineTicketing.Infrastructure/ # Repositories, DbContext
-├─ tests/
-│  ├─ OfflineTicketing.Application.Tests/
-│  └─ OfflineTicketing.API.Tests/
 ├─ README.md
 ```
 
