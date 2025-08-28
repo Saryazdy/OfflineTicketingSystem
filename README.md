@@ -1,179 +1,108 @@
+# OfflineTicketingSystem
 
-```markdown
-# Offline Ticketing System
+A simple Ticketing System built with ASP.NET Core, MediatR, and EF Core, featuring:
 
-## 📝 Project Description
-This project is an **internal ticketing system for an organization**, implemented using **ASP.NET Core 8 Web API** with **CQRS + MediatR**.  
-
-Features include:
-
-- User management with **Employee** and **Admin** roles
-- Create, view, update, and delete tickets
-- JWT-based authentication and role-based authorization
-- Ticket statistics (Open, InProgress, Closed)
-- Validation and Logging pipeline
-- Clean Architecture (Jason Taylor Style)
+* Create, update, delete, and view tickets
+* Pagination support for tickets
+* JWT Authentication
+* Role-based Authorization (Admin / Employee)
+* CQRS pattern with MediatR
 
 ---
 
-## 🏗️ Project Structure
+## Prerequisites
 
-```
-
-OfflineTicketingSystem
-│
-├── src
-│   ├── OfflineTicketingSystem.Domain        # Entities and Enums
-│   ├── OfflineTicketingSystem.Application   # Commands, Queries, DTOs, Validators, Interfaces
-│   ├── OfflineTicketingSystem.Infrastructure # EF Core, JWT, Repositories
-│   └── OfflineTicketingSystem.WebApi       # Controllers, Program.cs, Swagger
-└── tests
-└── OfflineTicketingSystem.Application.Tests # Unit Tests
-
-````
+* [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+* Visual Studio 2022 or later
+* SQLite (or other database)
+* Postman or similar API testing tool
 
 ---
 
-## ⚙️ Prerequisites
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- SQLite (default local database)
-- IDE like Visual Studio or VS Code
-
----
-
-## 🏃 How to Run
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd OfflineTicketingSystem
-````
-
-2. Apply EF Core migrations and create SQLite database:
-
-```bash
-dotnet ef database update --project src/OfflineTicketingSystem.Infrastructure
-```
-
-3. Run the Web API:
-
-```bash
-cd src/OfflineTicketingSystem.WebApi
-dotnet run
-```
-
-4. Open Swagger UI:
+## Project Structure
 
 ```
-https://localhost:5001/swagger
+OfflineTicketingSystem/
+├─ src/
+│  ├─ OfflineTicketing.API/          # API controllers, Program.cs
+│  ├─ OfflineTicketing.Application/  # Commands, Queries, DTOs, Behaviors
+│  ├─ OfflineTicketing.Domain/       # Entities, Enums
+│  ├─ OfflineTicketing.Infrastructure/ # Repositories, DbContext
+├─ tests/
+│  ├─ OfflineTicketing.Application.Tests/
+│  └─ OfflineTicketing.API.Tests/
+├─ README.md
 ```
 
 ---
 
-## 🔐 JWT Authentication
+## Build & Database Setup
 
-* **Login**: `POST /auth/login`
+1. Open the solution in Visual Studio or via terminal.
+2. Navigate to `src/OfflineTicketing.Infrastructure`.
+3. Install EF Core CLI if needed:
 
-Request:
+   ```bash
+   dotnet tool install --global dotnet-ef
+   ```
+4. Add migration and update the database:
 
-```json
-{
-  "email": "admin@example.com",
-  "password": "Admin123!"
-}
-```
+   ```bash
+   dotnet ef migrations add InitialCreate --project OfflineTicketing.Infrastructure
+   dotnet ef database update --project OfflineTicketing.Infrastructure
+   ```
 
-Response:
-
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "userId": "guid",
-  "fullName": "Admin User",
-  "role": "Admin"
-}
-```
-
-Use **Authorization Header** for protected endpoints:
-
-```
-Authorization: Bearer <token>
-```
+> For SQLite, the database file will be created automatically.
 
 ---
 
-## 🗂️ API Endpoints
-
-| Method | URL            | Role           | Description                          |
-| ------ | -------------- | -------------- | ------------------------------------ |
-| POST   | /tickets       | Employee       | Create a new ticket                  |
-| GET    | /tickets/my    | Employee       | List tickets created by current user |
-| GET    | /tickets       | Admin          | List all tickets                     |
-| GET    | /tickets/{id}  | Admin/Employee | Get ticket details                   |
-| PUT    | /tickets/{id}  | Admin          | Update ticket status/assignment      |
-| DELETE | /tickets/{id}  | Admin          | Delete a ticket                      |
-| GET    | /tickets/stats | Admin          | Get ticket statistics                |
-
----
-
-## 💾 Database
-
-* **SQLite** local database: `offline_ticketing.db`
-* Main tables:
-
-  * Users
-  * Tickets
-  * TicketHistories
-
----
-
-## 🧩 Architecture
-
-* **Domain**: Entities and Enums
-* **Application**: Commands, Queries, DTOs, Validators, Interfaces, Pipeline Behaviors
-* **Infrastructure**: EF Core, Repositories, JWT Service
-* **WebApi**: Controllers, Middleware, Swagger
-
-**Benefits:**
-
-* Loose coupling
-* Fully testable (Unit/Integration)
-* Clean Architecture (Jason Taylor Style)
-* CQRS for separating read/write operations
-
----
-
-## 🧪 Testing
-
-Unit Tests use **Moq + xUnit** for CommandHandlers:
+## Run the API
 
 ```bash
-cd tests/OfflineTicketingSystem.Application.Tests
-dotnet test
+dotnet run --project src/OfflineTicketing.API
+```
+
+Swagger UI available at: `https://localhost:5001/swagger/index.html`
+
+---
+
+## Seeded Users
+
+| Name          | Email                                                 | Password     | Role     |
+| ------------- | ----------------------------------------------------- | ------------ | -------- |
+| Admin User    | [admin@example.com](mailto:admin@example.com)         | Admin123!    | Admin    |
+| Employee User | [employee@example.com](mailto:employee@example.com)   | Employee123! | Employee |
+| Employee2     | [employee2@example.com](mailto:employee2@example.com) | Employee123! | Employee |
+
+* Sample tickets are automatically created on database initialization.
+
+---
+
+## API Endpoints
+
+| Method | Route         | Description                  | Roles           |
+| ------ | ------------- | ---------------------------- | --------------- |
+| POST   | /tickets      | Create a ticket              | Employee        |
+| GET    | /tickets/my   | View user's tickets          | Admin, Employee |
+| GET    | /tickets      | View all tickets (Paginated) | Admin           |
+| GET    | /tickets/{id} | View ticket by ID            | Admin, Employee |
+| PUT    | /tickets/{id} | Update ticket                | Admin           |
+| DELETE | /tickets/{id} | Delete ticket                | Admin           |
+| POST   | /auth/login   | Login and get JWT            | All             |
+
+---
+
+## Testing
+
+* Use Postman or Swagger.
+* Run unit tests:
+
+```bash
+dotnet test tests/OfflineTicketing.Application.Tests
 ```
 
 ---
 
-## ⚠️ Security Notes
+## License
 
-* Passwords should be stored **hashed using BCrypt**.
-* JWT Key must be **secure and confidential** in production.
-* Endpoints are protected by **role-based authorization** (`Employee` / `Admin`).
-
----
-
-## 🔗 References
-
-* [ASP.NET Core Documentation](https://docs.microsoft.com/en-us/aspnet/core/)
-* [MediatR Documentation](https://github.com/jbogard/MediatR)
-* [Clean Architecture (Jason Taylor)](https://jasontaylor.dev/clean-architecture-getting-started/)
-
-```
-
----
-
-This README is **ready to copy-paste**. It explains architecture, setup, JWT, endpoints, DB, testing, and security.  
-
-I can also provide a **Swagger JSON with JWT ready for testing all endpoints** so you can import it directly into Swagger UI—do you want me to prepare that?
-```
+MIT License
